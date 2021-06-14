@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageSwitcher
+        android:id="@+id/Is_pengalihGambar"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"/>
+    <Button
+        android:id="@+id/btn_Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Is_pengalihGambar"
+        android:text="@string/back_main"/>
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Is_pengalihGambar"
+        android:text="@string/next_main"
+        android:layout_alignParentEnd="true"/>
+    <Button
+        android:id="@+id/Btn_ambilGambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_images_main"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

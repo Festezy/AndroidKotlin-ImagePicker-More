@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pilih Banyak Gambar</string>
+    <string name="sebelumnya_main">Sebelumnya</string>
+    <string name="selanjutnya_main">Selanjutnya</string>
+    <string name="back_main">Back</string>
+    <string name="next_main">Next</string>
+    <string name="get_images_main">Get Images</string>
+</resources>
